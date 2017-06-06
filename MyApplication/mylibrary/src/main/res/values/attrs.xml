@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ThreeBallRotationView">
+        <attr name="first_ball_color" format="color"/>
+        <attr name="second_ball_color" format="color"/>
+        <attr name="third_ball_color" format="color"/>
+        <attr name="balls_distance" format="dimension"/>
+        <attr name="ball_max_radius" format="dimension"/>
+        <attr name="ball_min_radius" format="dimension"/>
+    </declare-styleable>
+</resources>
