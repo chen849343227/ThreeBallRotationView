@@ -1,8 +1,8 @@
 # ThreeBallRotationView
 
-Step 1. Add the JitPack repository to your build file
+仿照QQ邮箱的下拉刷新动画
 
-Add it in your root build.gradle at the end of repositories:
+将下面这行代码添加到你项目的的build.gradle里面:
 
 	allprojects {
 		repositories {
@@ -10,7 +10,8 @@ Add it in your root build.gradle at the end of repositories:
 			maven { url 'https://www.jitpack.io' }
 		}
 	}Copy
-Step 2. Add the dependency
+	
+然后添加依赖：
 
 	dependencies {
 	        compile 'com.github.chen849343227:ThreeBallRotationView:1.0'
